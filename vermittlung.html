@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]--> <!-- For older internet explorer to recognize Tags like header nav section etc...-->
+		<link rel="stylesheet" href="header_style.css" />
+		<link rel="stylesheet" href="section_style.css" />
+		<link rel="stylesheet" href="footer_style.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+	<!--[if lte IE 7]>
+	<link rel="stylesheet" href="sytle_ie.css" />
+	<![endif]--> <!-- For the browser IE6 and IE7 to read the display property-->
+
+	<!--In the style_ie.css file add the following code
+		nav, section
+		{
+			display: inline;
+			zoom: 1;
+		}
+		-->
+		<title>Umzug-leicht</title>
+	</head>
+
+	<body>
+      	<header>
+	      		<div id="header">
+	      			<div id="main_title">
+	      				<img src="images/zozor_logo.png" alt="" id="logo" />
+	      				<h1>Umzug-leicht</h1>
+	      			</div>
+	      		
+	      			<input type="checkbox" id="chk">
+	      			<label for="chk" class="show-menu-btn">
+	      				<i class="fas fa-bars"></i>
+	      			</label>
+					
+	      			<nav>
+	      				<ul>
+	      					<li><a href="service.html">Service</a></li>
+	      					<li><a href="vermittlung.html">Vermittlung</a></li>
+	      					<li><a href="angebot.html">Angebot</a></li>
+	      					<li><a href="#">Über uns</a></li>
+	      					<li><a href="kontakt.html">Kontakt</a></li>
+	      					<li>
+	      						<label for="chk" class="hide-menu-btn">
+									<i class="fas fa-times"></i>
+								</label>
+							</li>
+	      				</ul>
+	      			</nav>
+	      		</div>
+	      	</header>
+
+      	<div id="vermittlung_banner_image">
+      		<p>Es gibt <strong>IMMER</strong> jemanden, der Ihnen hilft</p>
+      	</div>
+
+      	<section id="vermittlung_section">
+      		<h1>Vermittlung</h1>
+
+      		<section id="vermittlung_kontakt">
+      			<aside><p><strong>Der Nachteil ist:</strong><br/>
+      		Es gibt IMMER jemanden der Ihnen bei Ihrer Arbeit hilft.</p></aside>
+
+      			<form method="post" action="target.php" id="vermittlung_form">
+      			<fieldset>
+      				<legend>Informationen zu Ihrer Person</legend>
+      				<label>Anrede </label><input type="radio" name="anrede" value="herr" id="herr" /><label for="herr"> Herr </label><input type="radio" name="anrede" value="frau" id="frau" /><label for="frau"> Frau </label><input type="radio" name="anrede" value="firma" id="firma" /><label for="firma"> Firma</label><br />
+      				<label for="vorname" class="vorname">Vorname</label><label for="nachname" class="nachname">Nachname</label><br />
+      				<input type="text" name="vorname" id="vorname" /> <input type="nachname" name="nachname" id="nachname" /><br />
+      				<label for="adresse" class="adresse">Adresse</label><label for="plz" class="plz">Postleitzahl</label><br />
+      				<input type="text" name="adresse" id="adresse" /><input type="text" name="plz" id="plz" /><br />
+      				<label for="ort" class="ort">Ort</label><label for="country" class="country">Land</label><br>
+      				<input type="text" name="ort" id="ort" /><select name="country" id="country">
+      					<option value="deutschland" id="deutschland" >Deutschland</option>
+      				</select><br />
+      				<label for="email" class="email">Email</label><label for="telephone" class="telefon">Tel.:</label><br />
+      				<input type="email" name="email" id="email" required /> <input type="tel" name="telefon" id="telefon" /><br />
+      			</fieldset>
+
+      			<fieldset class="second-child">
+      				<legend>Informationen zu dem Job</legend>
+      				<label for="ort1">Einsatzsort</label><br />
+      				<input type="text" name="adresse_ort1" id="adresse_ort1" placeholder="Adresse" /><input type="text" name="plz_ort1" id="plz_ort1" placeholder="Postleitzahl" /><br />
+      				<input type="text" name="ort_ort1" id="ort_ort1" placeholder="Ort" /><select name="country_ort1" id="country_ort1">
+      					<option value="Deutschland_ort1" id="deutschland_ort1">Deutschland</option>
+      				</select>
+      			</fieldset>
+
+      			<fieldset class="third-child">
+      				<legend>Der Job wird in mehreren Orten durchgeführt.</legend>
+      				<label for="ort2">Zweiter Einsatzsort</label><br />
+      				<input type="text" name="adresse_ort2" id="adresse_ort2" placeholder="Adresse" /><input type="text" name="plz_ort2" placeholder="Postleitzahl" id="plz_ort2" /><br />
+      				<input type="text" name="ort_ort2" id="ort_ort2" placeholder="Ort" /><select name="country_ort2" id="country_ort2">
+      					<option value="Deutschland_ort2" id="deutschland_ort2">Deutschland</option>
+      				</select>
+      			</fieldset>
+
+      			<fieldset >
+      				<legend>Jobbeschreibung</legend>
+      				<label for="jobbeschreibung">Kurze Jobbeschreibung</label><br />
+      				<textarea name="jobbeschreibung" id="jobbeschreibung"></textarea><br />
+      				<label for="einsatztermin">Einsatztermin</label>    <label for="uhrzeit">Uhrzeit</label><br />
+      				<input type="date" name="einsatztermin" id="einsatztermin" /> <input type="time" name="uhrzeit" id="uhrzeit" /><br />
+      				<label>gewünschte Anzahl von Helfern</label><input type="number" name="helfer" min="1" max="10" id="helfer" /><br />
+      				<input type="checkbox" name="datenschutz" id="datenschutz" /><label for="datenschutz">Zustimmung, dass meine in dem Formular eingetrageneen Angaben nach unserer Datenschutzverordnung verarbeitet werden dürfen.</label><br />
+      				<input type="submit" value="SENDEN" id="senden"/>
+      			</fieldset>
+      			</form>
+      		</section>
+      	</section>
+
+      	<footer>
+      		<div id="footer">
+                  <form method="post" action="target.php" id="footer_form">
+                        <p>
+                              <label for="meinung">Wie können wir unsere Service verbessern?</label><br />
+                              <textarea name="improve" id="meinung" rows="10" cols="50"></textarea><br />
+                              <input type="submit" value="Send" />
+                        </p>
+                  </form>
+                  <div id="footer_kontakt">
+                        <h1><a href="kontakt.html">Kontakt</a></h1>
+                        <table>
+                              <tr>
+                                    <td>Storkowerstr. 225</td>
+                              </tr>
+                              <tr>
+                                    <td>10367 Berlin</td>
+                              </tr>
+                              <tr>
+                                    <td>Tel. +491795993457</td>
+                              </tr>
+                              <tr>
+                                    <td>Email.: <a href="mailto:franklinfeudjo1@gmail.com" title="Erreich uns per email">franklinfeudjo@gmail.com</a></td>
+                              </tr>
+                        </table>
+                        <p><a href="facebook.com"><img src="images/facebook_logo.png" alt="facebook" /></a><a href="twitter.com"><img src=images/twitter_logo.png alt="twitter" /></a><a href="linkedin.com"><img src="images/linkedin_logo..jpg" alt="linkedin" /></a></p>
+                  </div>
+                </div>
+            </footer>
+    </body>
+</html>

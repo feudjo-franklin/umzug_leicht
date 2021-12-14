@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]--> <!-- For older internet explorer to recognize Tags like header nav section etc...-->
+		<link rel="stylesheet" href="header_style.css" />
+		<link rel="stylesheet" href="section_style.css" />
+		<link rel="stylesheet" href="footer_style.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+	<!--[if lte IE 7]>
+	<link rel="stylesheet" href="sytle_ie.css" />
+	<![endif]--> <!-- For the browser IE6 and IE7 to read the display property-->
+
+	<!--In the style_ie.css file add the following code
+		nav, section
+		{
+			display: inline;
+			zoom: 1;
+		}
+		-->
+		<title>Umzug-leicht</title>
+	</head>
+
+	<body>
+      	<header>
+                        <div id="header">
+                              <div id="main_title">
+                                    <img src="images/zozor_logo.png" alt="" id="logo" />
+                                    <h1>Umzug-leicht</h1>
+                              </div>
+                        
+                              <input type="checkbox" id="chk">
+                              <label for="chk" class="show-menu-btn">
+                                    <i class="fas fa-bars"></i>
+                              </label>
+                              
+                              <nav>
+                                    <ul>
+                                          <li><a href="service.html">Service</a></li>
+                                          <li><a href="vermittlung.html">Vermittlung</a></li>
+                                          <li><a href="angebot.html">Angebot</a></li>
+                                          <li><a href="#">Über uns</a></li>
+                                          <li><a href="kontakt.html">Kontakt</a></li>
+                                          <li>
+                                                <label for="chk" class="hide-menu-btn">
+                                                      <i class="fas fa-times"></i>
+                                                </label>
+                                          </li>
+                                    </ul>
+                              </nav>
+                        </div>
+                  </header>
+
+      	<div id="kontakt_banner_image">
+      		<h1>Umzugsangebot NICHT verpassen</h1>
+      	</div>
+
+      	<section id="angebot_section">
+      		<h1>Berlin, wir haben dich so viel lieb</h1>
+      		
+      		<p><a href="angebot/kleinen_umzug.html"> Hier klicken für einen kleinen Umzug</a></p>
+
+      		<p><a href="angebot/grossen_umzug.html">Hier klicken für einen großen Umzug</a></p>
+
+      	</section>
+
+      	<footer>
+      		<div id="footer">
+                  <form method="post" action="target.php" id="footer_form">
+                        <p>
+                              <label for="meinung">Wie können wir unsere Service verbessern?</label><br />
+                              <textarea name="improve" id="meinung" rows="10" cols="50"></textarea><br />
+                              <input type="submit" value="Send" />
+                        </p>
+                  </form>
+                  <div id="footer_kontakt">
+                        <h1><a href="kontakt.html">Kontakt</a></h1>
+                        <table>
+                              <tr>
+                                    <td>Storkowerstr. 225</td>
+                              </tr>
+                              <tr>
+                                    <td>10367 Berlin</td>
+                              </tr>
+                              <tr>
+                                    <td>Tel. +491795993457</td>
+                              </tr>
+                              <tr>
+                                    <td>Email.: <a href="mailto:franklinfeudjo1@gmail.com" title="Erreich uns per email">franklinfeudjo@gmail.com</a></td>
+                              </tr>
+                        </table>
+                        <p><a href="facebook.com"><img src="images/facebook_logo.png" alt="facebook" /></a><a href="twitter.com"><img src=images/twitter_logo.png alt="twitter" /></a><a href="linkedin.com"><img src="images/linkedin_logo..jpg" alt="linkedin" /></a></p>
+                  </div>
+                </div>
+            </footer>
+    </body>
+</html>

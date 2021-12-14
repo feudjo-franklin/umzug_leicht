@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]--> <!-- For older internet explorer to recognize Tags like header nav section etc...-->
+		<link rel="stylesheet" href="../header_style.css" />
+		<link rel="stylesheet" href="../section_style.css" />
+		<link rel="stylesheet" href="../footer_style.css" />
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+	<!--[if lte IE 7]>
+	<link rel="stylesheet" href="sytle_ie.css" />
+	<![endif]--> <!-- For the browser IE6 and IE7 to read the display property-->
+
+	<!--In the style_ie.css file add the following code
+		nav, section
+		{
+			display: inline;
+			zoom: 1;
+		}
+		-->
+		<title>Umzug-leicht</title>
+	</head>
+
+	<body>
+      	<header>
+                        <div id="header">
+                              <div id="main_title">
+                                    <img src="images/zozor_logo.png" alt="" id="logo" />
+                                    <h1>Umzug-leicht</h1>
+                              </div>
+                        
+                              <input type="checkbox" id="chk">
+                              <label for="chk" class="show-menu-btn">
+                                    <i class="fas fa-bars"></i>
+                              </label>
+                              
+                              <nav>
+                                    <ul>
+                                          <li><a href="../service.html">Service</a></li>
+                                          <li><a href="../vermittlung.html">Vermittlung</a></li>
+                                          <li><a href="../angebot.html">Angebot</a></li>
+                                          <li><a href="#">Über uns</a></li>
+                                          <li><a href="../kontakt.html">Kontakt</a></li>
+                                          <li>
+                                                <label for="chk" class="hide-menu-btn">
+                                                      <i class="fas fa-times"></i>
+                                                </label>
+                                          </li>
+                                    </ul>
+                              </nav>
+                        </div>
+                  </header>
+
+      	<div id="umzug_banner">
+      		<h1>Der BESTE Umzugsservice</h1>
+      	</div>
+
+      	<section id="umzug_section">
+      		<section id="umzug_detail">
+      			<table id="kleiner_umzug">
+      				<thead>
+      					<tr><th colspan="2">Größer Umzug</th></tr>
+      					<tr><th colspan="2">100 Euro | Stunde</th></tr>
+      				</thead>
+      				<tfoot>
+      					<tr><th colspan="2"><a href="../kontakt.html">Kontakt</a></th></tr>
+      				</tfoot>
+      				<tbody>
+      					<tr>
+      						<td rowspan="7">Inklusiv:</td>
+      						<td>Buchungszeit min. 3 Std</td>
+      					</tr>
+      					<tr>
+      						<td>1 LKW</td>
+      					</tr>
+      					<tr>
+      						<td> 3 professionnelle und freundliche Helfer</td>
+      					</tr>
+      					<tr>
+      						<td>Versicherung</td>
+      					</tr>
+      					<tr>
+      						<td>Abbau und Aufbau von Möbel</td>
+      					</tr>
+      					<tr>
+      						<td>Professionnelle Ausrüstung</td>
+      					</tr>
+      					<tr>
+      						<td>19% Mwst</td>
+      					</tr>
+      					<tr>
+      						<td colspan="2">Jede weitere Stunde 75Euro</td>
+      					</tr>
+      					<tr>
+      						<td colspan="2">50euro EXTRA für An-und Abfahrt</td>
+      					</tr>
+      				</tbody>
+      			</table>
+
+      		</section>
+      		<section id="umzug_form">
+      			<ul class="progressbar">
+      				<li class="active">Step1</li>
+      				<li>Step2</li>
+      				<li>Step3</li>
+      			</ul>
+
+      			<form method="post" action="target.php" id="einzug_form">
+      				<h1>Einzug</h1>
+      				<p>
+      					<label for="einzug_adresse">Adresse</label><br />
+      					<input type="text" name="einzug_adresse" id="einzug_adresse" /><br />
+      					<label for="einzug_plz">Postleitzahl</label><br />
+      					<input type="text" name="einzug_plz" id="einzug_plz" /><br />
+      					<label for="einzug_ort">Ort</label><br />
+      					<input type="einzug_ort" name="einzug_ort" id="einzug_ort" /><br />
+      					<label for="einzug_flaeche">Gesamtfläche </label><input type="tel" name="auszug_flaeche" id="einzug_flaeche"/> m²<br />
+      					<label for="einzug_raeume">Anzahl der Räume</label><input type="number" name="einzug_raeume" id="einzug_raeume" min="1"/><br />
+      					<label id="eingang">Eingangssituation</label><br />
+      					<label for="einzug_lift">Lift im Gebäude</label><input type="radio" name="lift" value="lift" id="lift" /><label for="lift">Ja</label><input type="radio" name="lift" value="kein_lift" id="kein_lift" /><label for="kein_lift">Nein</label><br />
+      					<label for="einzug_gebaeude">Einzug in ein Bürogebäude</label><input type="checkbox" name="einzug_gebaeude" id="einzug_gebaeude" /><br />
+      					<label for="einzug_haus">Einzug in ein gesamtes Haus </label><input type="checkbox" name="einzug_haus" id="einzug_haus" /><br />
+      					<a href="grossen_umzug.html"><input type="reset" value="zurück" id="einzug_zurueck" /></a>
+      					<a href="grossen_umzug_daten.html"><input type="submit" value="weiter" id="einzug_weiter" /></a><br />
+      				</p>
+      			</form>
+      		</section>
+      	</section>
+
+      	<footer>
+      		<div id="footer">
+      			<form method="post" action="target.php" id="footer_form">
+      			<p>
+      				<label for="meinung">Wie können wir unsere Service verbessern?</label><br />
+      				<textarea name="improve" id="meinung" rows="10" cols="50"></textarea><br />
+      				<input type="submit" value="Send" />
+      			</p>
+      			</form>
+      			<div id="footer_kontakt">
+      			<h1><a href="kontakt.html">Kontakt</a></h1>
+      			<table>
+      				<tr>
+      					<td>Storkowerstr. 225</td>
+      				</tr>
+      				<tr>
+      					<td>10367 Berlin</td>
+      				</tr>
+      				<tr>
+      					<td>Tel. +491795993457</td>
+      				</tr>
+      				<tr>
+      					<td>Email.: <a href="mailto:franklinfeudjo1@gmail.com" title="Erreich uns per email">franklinfeudjo@gmail.com</a></td>
+      				</tr>
+      			</table>
+      			<p><a href="facebook.com"><img src="../images/facebook_logo.png" alt="facebook" /></a><a href="twitter.com"><img src=../images/twitter_logo.png alt="twitter" /></a><a href="linkedin.com"><img src="../images/linkedin_logo..jpg" alt="linkedin" /></a></p>
+      			</div>
+      		</div>
+      	</footer>
+    </body>
+</html>

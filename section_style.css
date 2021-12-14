@@ -1,0 +1,1278 @@
+/* style of service.html */
+
+#vermittlung table, #kleiner_umzug, #grosser_umzug
+{
+	border-collapse: collapse;
+	/* border: 2px solid yellow; */
+}
+
+#vermittlung table td, #vermittlung table th
+{
+	/*border: 2px solid black;*/
+}
+
+#kleiner_umzug td, #grosser_umzug td
+{
+	/*border: 2px solid black;*/
+	font-size: 1.3em;
+}
+
+#kleiner_umzug thead, #kleiner_umzug tfoot, #grosser_umzug thead, #grosser_umzug tfoot, #kleiner_umzug tbody, #grosser_umzug tbody
+{
+	/*border: 2px solid black;*/
+	width: 400px;
+}
+
+#vermittlung h1, #vermittlung p, #vermittlung table, #service h1, #service table
+{
+	text-align: center;
+}
+
+#vermittlung
+{
+	/*border: 2px solid yellow;*/
+	width: 950px;
+	margin: auto;
+	margin-top: 0px;
+}
+
+#vermittlung h1
+{
+	font-size: 2.5em;
+	margin-bottom: 20px;
+	color: navy;
+}
+
+#vermittlung p
+{
+	font-size: 1.8em;
+}
+
+#vermittlung_table
+{
+	width: 400px;
+	margin: auto;
+	height: 500px;
+	background-color: white;
+}
+
+#vermittlung_table th
+{
+	font-size: 2em;
+	color: navy;
+}
+
+#vermittlung_table td
+{
+	font-size: 1.3em;
+}
+
+#vermittlung_table th:last-child a
+{
+	text-decoration: none;
+	font-weight: bold;
+	color: navy;
+	/*border: 2px solid red;*/
+	background-color: red;
+	margin: auto;
+	border-radius: 25px;
+	padding: 5px;
+}
+
+#vermittlung_table th:last-child a:hover
+{
+	background-color: blue;
+}
+
+#service
+{
+	/*border: 2px solid red;*/
+	width: 950px;
+	margin: auto;
+}
+
+#service h1
+{
+	font-size: 2.5em;
+	color: navy;
+}
+
+#service #kleiner_umzug
+{
+	display: inline-block;
+	width: 400px;
+	vertical-align: top;
+	margin-right: 146px;
+	height: 500px;
+	background-color: white;
+}
+
+#service #kleiner_umzug a, #service #grosser_umzug a
+{
+	color: navy;
+}
+
+#service table thead, #service table tfoot
+{
+	font-size: 2em;
+	height: 100px;
+	color: navy;
+}
+
+#service tbody td
+{
+	height: 36px;
+}
+
+#service #grosser_umzug
+{
+	display: inline-block;
+	width: 400px;
+	vertical-align: top;
+	height: 500px;
+	background-color: white;
+}
+
+#service_section
+{
+	background-color: #E8EEF1;
+	/*border: 2px solid navy;*/
+}
+/* style of kontakt.html */
+
+#kontakt_oeffnungszeiten
+{
+	width: 950px;
+	margin: auto;
+	/*margin-left: 15%;*/
+	/*border: 2px solid red;*/
+}
+
+#kontakt_part1
+{
+	width: 625px;
+	display: inline-block;
+	/*border: 2px solid purple;*/
+	vertical-align: top;
+}
+
+#kontakt_oeffnungszeiten #kontakt
+{
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+#kontakt_oeffnungszeiten #addresse, #kontakt_oeffnungszeiten #zeiten
+{
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+}
+
+#kontakt_oeffnungszeiten #addresse table, #kontakt_oeffnungszeiten #zeiten table
+{
+	width: 300px;
+	height: 300px;
+	margin-right: 10px;
+	border: 1px solid black;
+	border-radius: 250px;
+	font-size: 1.1em;
+}
+
+#kontakt_oeffnungszeiten #zeiten table
+{
+	 background: url("images/office_zeiten1.jpg") no-repeat;
+}
+
+#kontakt_oeffnungszeiten #addresse table
+{
+	background: url("images/office_adresse.png") no-repeat;
+}
+
+#kontakt_oeffnungszeiten #kontakt table
+{
+	width: 310px;
+	height: 310px;
+	margin-right: 10px;
+	border: 1px solid black;
+	border-radius: 310px;
+	font-size: 1.1em;
+	background: url("images/office_kontakt.jpg");
+}
+
+#kontakt_section #kontakt_oeffnungszeiten h1
+{
+	font-size: 2em;
+}
+
+#kontaktieren
+{
+	/*border: 3px solid blue;*/
+	width: 950px;
+	margin: auto;
+}
+
+#kontaktieren h1
+{
+	text-align: center;
+	font-size: 2em;
+}
+
+#kontaktieren p
+{
+	/*border: 2px solid yellow;*/
+	width: 350px;
+	margin: auto;
+	font-size: 1.3em;
+}
+
+#kontaktieren #kontakt_form #herr, #kontaktieren #kontakt_form #frau, #kontaktieren #kontakt_form #firma
+{
+	width: 20px;
+	height: 20px;
+	margin-bottom: 5px;
+}
+
+#kontaktieren #kontakt_form #telefon, #kontaktieren #kontakt_form #email
+{
+	width: 168px;
+	height: 25px;
+}
+
+#kontaktieren #kontakt_form #nachricht
+{
+	width: 343px;
+	height: 100px;
+}
+
+#kontaktieren #kontakt_form #datenschutz
+{
+	width: 25px;
+	height: 25px;
+}
+
+#kontaktieren #kontakt_form #submit
+{
+	width: 350px;
+	height: 25px;
+}
+
+/* style of vermittlung.html */
+
+#vermittlung_section
+{
+	width: 950px;
+	margin: auto;
+	/*border: 2px solid red;*/
+}
+
+#vermittlung_section h1
+{
+	text-align: center;
+	font-size: 2.5em;
+}
+
+#vermittlung_kontakt
+{
+	/*border: 2px solid maroon;*/
+	font-size: 1.3em;
+}
+
+#vermittlung_kontakt aside, #vermittlung_kontakt form
+{
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 10px;
+}
+
+#vermittlung_section aside
+{
+	width: 250px;
+	height: 200px;
+	/*border: 2px solid purple;*/
+	vertical-align: top;
+	margin-left: 100px;
+	margin-right: 10px;
+}
+
+#vermittlung_section form
+{
+	vertical-align: top;
+	/*border: 2px solid aqua;*/
+	width: 500px;
+}
+
+#vermittlung_section #vermittlung_form #herr, #vermittlung_section #vermittlung_form #frau, #vermittlung_section #vermittlung_form #firma
+{
+	width: 20px;
+	height: 20px;
+	margin-bottom: 5px;
+}
+
+#vermittlung_section #vermittlung_form #vorname, #vermittlung_section #vermittlung_form #nachname, #vermittlung_section #vermittlung_form #adresse, #vermittlung_section #vermittlung_form #plz, #vermittlung_section #vermittlung_form #ort, #vermittlung_section #vermittlung_form #country, #vermittlung_section #vermittlung_form #deutschland
+{
+	width: 220px;
+	height: 25px;
+	margin-bottom: 5px;
+}
+
+#vermittlung_section #vermittlung_form #email, #vermittlung_section #vermittlung_form #telefon
+{
+	width: 220px;
+	height: 25px;
+	margin-bottom: 5px;
+}
+
+#vermittlung_section #vermittlung_form #adresse_ort1, #vermittlung_section #vermittlung_form #plz_ort1, #vermittlung_section #vermittlung_form #ort_ort1, #vermittlung_section #vermittlung_form #country_ort1, #vermittlung_section #vermittlung_form #deutschland_ort1
+{
+	width: 220px;
+	height: 25px;
+	margin-bottom: 5px;
+}
+
+#vermittlung_section #vermittlung_form #adresse_ort2, #vermittlung_section #vermittlung_form #plz_ort2, #vermittlung_section #vermittlung_form #ort_ort2, #vermittlung_section #vermittlung_form #country_ort2, #vermittlung_section #vermittlung_form #deutschland_ort2
+{
+	width: 220px;
+	height: 25px;
+	margin-bottom: 5px;   
+}
+
+#vermittlung_section #vermittlung_form #einsatztermin, #vermittlung_section #vermittlung_form #uhrzeit
+{
+	width: 220px;
+	height: 25px;
+	margin-bottom: 5px;
+}
+
+#vermittlung_section #vermittlung_form #jobbeschreibung
+{
+	width: 445px;
+	height: 90px;
+}
+
+#vermittlung_section #vermittlung_form #helfer
+{
+	width: 181px;
+	height: 25px;
+}
+
+#vermittlung_section #vermittlung_form #datenschutz
+{
+	width: 20px;
+	height: 20px;
+}
+
+#vermittlung_section #vermittlung_form .nachname
+{
+	margin-left: 154px;
+}
+
+#vermittlung_section #vermittlung_form .plz
+{
+	margin-left: 157px;
+}
+
+#vermittlung_section #vermittlung_form .country
+{
+	margin-left: 198px;
+}
+
+#vermittlung_section #vermittlung_form .telefon
+{
+	margin-left: 178px;
+}
+
+#vermittlung_section #vermittlung_form #senden
+{
+	margin-left: 380px;
+}
+
+#vermittlung_section #vermittlung_form legend
+{
+	font-weight: bold;
+}
+
+#vermittlung_section #vermittlung_form fieldset
+{
+	border: none;
+}
+
+/*style of angebot.html */
+
+#angebot_section
+{
+	background: url("images/berlin_background1.jpg") no-repeat;
+}
+
+#angebot_section h1
+{
+	text-align: center;
+	font-size: 3em;
+}
+
+#angebot_section p
+{
+	text-align: center;
+	font-size: 2em;
+	width: 550px;
+	margin: auto;
+	height: 50px;
+	border: 3px solid red;
+	border-radius: 35px;
+	margin-bottom: 50px;
+	padding-top: 10px;
+	background-color: red;
+}
+
+#angebot_section p:hover
+{
+	background-color: blue;
+	border: none;
+}
+
+#angebot_section p a
+{
+	text-decoration: none;
+}
+
+/*style of kleinen_umzug.html aussi utilisé pour grosser_umzug.html */
+
+
+#umzug_section
+{
+	border: 2px solid red;
+	width: 1400px;
+	margin: auto;
+}
+
+#umzug_detail
+{
+	display: inline-block;
+	width: 400px;
+	height: 600px;
+	vertical-align: top;
+	border: 2px solid lime;
+	margin-right: 100px;
+	background-color: white;
+}
+
+#umzug_form
+{
+	display: inline-block;
+	width: 600px;
+	height: 600px;
+	vertical-align: top;
+	width: auto;
+	border: 2px solid yellow;
+}
+
+#umzug_detail table thead, #umzug_detail table tfoot, #umzug_detail table tfoot a
+{
+	color: navy;
+}
+
+.progressbar
+{
+	list-style-type: none;
+	border: 2px solid blue;
+	text-align: center;
+}
+
+.progressbar li
+{
+	display: inline-block;
+	margin-right: 100px;
+}
+
+
+/* seul le préfixe aus du mot auszug sera remplacé par ein pour le style de la page kleinen_umzug_einzug.html aussi utilisé pour grosser_umzug_einzug.html */
+
+#auszug_form h1
+{
+	font-size: 2em;
+	text-align: center;
+}
+
+#auszug_form
+{
+	border: 2px solid aqua;
+}
+
+#auszug_form p
+{
+	font-size: 1.3em;
+}
+
+#auszug_adresse, #auszug_plz, #auszug_ort
+{
+	width: 500px;
+	height: 25px;
+}
+#auszug_flaeche
+{
+	width: 350px;
+	height: 25px;
+	margin-bottom: 5px;
+}
+
+#auszug_ort
+{
+	margin-bottom: 5px;
+}
+
+#auszug_raeume
+{
+	width: 344px;
+	height: 25px;
+	margin-bottom: 5px;
+}
+
+#aufgabe
+{
+	margin-left: 150px;
+	margin-bottom: 5px;
+}
+
+#auszug_ab_und_auf
+{
+	margin-left: 268px;
+	width: 25px;
+	height: 25px;
+}
+
+#auszug_kartons
+{
+	margin-left: 253px;
+	width: 25px;
+	height: 25px;
+}
+
+#auszug_entsorgung
+{
+	margin-left: 378px;
+	width: 25px;
+	height: 25px;
+}
+
+#auszug_reinigung
+{
+	margin-left: 330px;
+	width: 25px;
+	height: 25px;
+}
+
+#auszug_weiter
+{
+	margin-left: 425px;
+	width: 80px;
+	height: 25px;
+}
+
+/* les recommandations du précédent commentaire concerne le code ci-dessus */
+
+
+#umzug_detail #kleiner_umzug
+{
+	display: inline-block;
+	width: 400px;
+	vertical-align: top;
+	margin-right: 146px;
+	height: 500px;
+	background-color: white;
+}
+
+#umzug_detail #kleiner_umzug
+{
+	text-align: center;
+	margin-top: 45px;
+}
+
+table thead, table tfoot
+{
+	font-size: 2em;
+	height: 100px;
+}
+
+tbody td
+{
+	height: 36px;
+}
+
+/* style of kleinen_umzug_einzug.html */
+
+#einzug_form h1
+{
+	font-size: 2em;
+	text-align: center;
+}
+
+#einzug_form
+{
+	border: 2px solid aqua;
+}
+
+#einzug_form p
+{
+	font-size: 1.3em;
+}
+
+#einzug_adresse, #einzug_plz, #einzug_ort
+{
+	width: 500px;
+	height: 25px;
+}
+#einzug_flaeche
+{
+	width: 350px;
+	height: 25px;
+	margin-bottom: 5px;
+}
+
+#einzug_ort
+{
+	margin-bottom: 5px;
+}
+
+#einzug_raeume
+{
+	width: 344px;
+	height: 25px;
+	margin-bottom: 5px;
+}
+
+#eingang
+{
+	margin-left: 175px;
+	margin-bottom: 5px;
+}
+
+#lift
+{
+	margin-left: 245px;
+	width: 25px;
+	height: 25px;
+}
+
+#kein_lift
+{
+	width: 25px;
+	height: 25px;
+}
+
+#einzug_gebaeude
+{
+	margin-left: 250px;
+	width: 25px;
+	height: 25px;
+}
+
+#einzug_haus
+{
+	margin-left: 232px;
+	width: 25px;
+	height: 25px;
+}
+
+#einzug_zurueck
+{
+	width: 80px;
+	height: 25px;
+}
+
+#einzug_weiter
+{
+	margin-left: 338px;
+	width: 80px;
+	height: 25px;
+}
+
+/* style of kleinen_umzug_daten.html aussi utilisé pour grosser_umzug_daten*/
+
+#daten_form h1
+{
+	font-size: 2em;
+	text-align: center;
+}
+
+#daten_form
+{
+	border: 2px solid aqua;
+}
+
+#daten_form p
+{
+	font-size: 1.3em;
+}
+
+#daten_frau_herr
+{
+	margin-bottom: 5px;
+}
+
+#daten_herr, #daten_frau
+{
+	width: 20px;
+	height: 20px;
+	margin-bottom: 5px;
+}
+
+#daten_vorname, #daten_nachname, #daten_email, #daten_telefon
+{
+	width: 500px;
+	height: 25px;
+	margin-bottom: 5px;
+}
+
+#daten_kommentar
+{
+	width: 500px;
+	height: 90px;
+	margin-bottom: 5px;
+}
+
+#daten_zurueck
+{
+	width: 80px;
+	height: 25px;
+}
+
+#daten_weiter
+{
+	margin-left: 338px;
+	width: 80px;
+	height: 25px;
+}
+
+/* Media queries of the website */
+
+@media all and (min-width: 950px) and (max-width: 1060px)
+{	
+	#umzug_section
+	{
+		width: auto;
+	}
+
+	#umzug_detail
+	{
+		margin-right: 15px;
+	}
+}
+
+
+@media all and (min-width: 794px) and (max-width: 950px)
+{
+	/* Media queries of kleinen_umzug.html et toutes les pages avec umzug */
+    #umzug_section
+    {
+        width: auto;
+    }
+
+    #umzug_detail
+    {
+    	display: block;
+    	width: 400px;
+    	margin: auto;
+    	margin-bottom: 40px;
+    }   
+
+    #umzug_form
+    {
+    	display: block;
+    	width: 512px;
+    	margin: auto;
+    	margin-bottom: 40px;
+    }
+
+	/*Media queries of service.html */
+
+	#vermittlung, #service
+	{
+		width: auto;
+	}
+
+	#vermittlung_table
+	{
+		width: 400px;
+		margin: auto;
+	}
+
+	#service #kleiner_umzug
+	{
+		display: block;
+		width: 400px;
+		margin: auto;
+		margin-bottom: 40px;
+	}
+
+	#service #grosser_umzug
+	{
+		display: block;
+		width: 400px;
+		margin: auto;
+		margin-bottom: 40px;
+	}
+  	
+  	/*Media queries of vermittlung.html */
+
+  	#vermittlung_section
+  	{
+  		width: auto;
+  	}
+
+  	#vermittlung_section #vermittlung_kontakt aside
+  	{
+  		display: none;
+  	}
+
+  	#vermittlung_section #vermittlung_kontakt #vermittlung_form
+  	{
+  		display: block;
+  		width: 500px;
+  		margin: auto;
+  	}
+	
+}
+
+@media all and (min-width: 630px) and (max-width: 793px)
+{
+	/* Media queries of kleinen_umzug.html et toutes les pages avec umzug */
+    #umzug_section
+    {
+        width: auto;
+    }
+
+    #umzug_detail
+    {
+    	display: block;
+    	width: 400px;
+    	margin: auto;
+    	margin-bottom: 40px;
+    }   
+
+    #umzug_form
+    {
+    	display: block;
+    	width: 512px;
+    	margin: auto;
+    	margin-bottom: 40px;
+    }
+
+	/*Media queries of service.html */
+
+	#vermittlung, #service
+	{
+		width: auto;
+	}
+
+	#vermittlung_table
+	{
+		width: 400px;
+		margin: auto;
+	}
+
+	#service #kleiner_umzug
+	{
+		display: block;
+		width: 400px;
+		margin: auto;
+		margin-bottom: 40px;
+	}
+
+	#service #grosser_umzug
+	{
+		display: block;
+		width: 400px;
+		margin: auto;
+		margin-bottom: 40px;
+	}
+  	
+  	/*Media queries of vermittlung.html */
+
+  	#vermittlung_section
+  	{
+  		width: auto;
+  	}
+
+  	#vermittlung_section #vermittlung_kontakt aside
+  	{
+  		display: none;
+  	}
+
+  	#vermittlung_section #vermittlung_kontakt #vermittlung_form
+  	{
+  		display: block;
+  		width: 500px;
+  		margin: auto;
+  	}
+
+  	/* Media queries of kontakt.html */
+
+	#kontakt_oeffnungszeiten
+	{
+		width: auto;
+		margin: auto;
+	}
+
+	#kontakt_part1
+	{
+		display: block;
+		width: 625px;
+		margin: auto;
+	}
+
+	#kontakt_oeffnungszeiten #kontakt
+	{
+		width: auto;
+		display: block;
+	}
+
+	#kontakt_oeffnungszeiten #kontakt table
+	{
+		width: 310px;
+		margin: auto;
+	}
+
+	#kontaktieren
+	{
+		width: auto;
+		margin: auto;
+	}
+
+	#kontaktieren p
+	{
+		width: 350px;
+		margin: auto;
+	}
+
+	/* Media queries of angebot.html */
+
+	#angebot_section h1
+	{
+		text-align: center;
+		font-size: 3em;
+	}
+}
+
+@media all and (max-width: 629px)
+{
+
+	/*Media queries of service.html */
+
+	#vermittlung, #service
+	{
+		width: auto;
+	}
+
+	#vermittlung_table
+	{
+		width: 400px;
+		margin: auto;
+	}
+
+	#service #kleiner_umzug
+	{
+		display: block;
+		width: 400px;
+		margin: auto;
+		margin-bottom: 40px;
+	}
+
+	#service #grosser_umzug
+	{
+		display: block;
+		width: 400px;
+		margin: auto;
+		margin-bottom: 40px;
+	}
+  	
+  	/*Media queries of vermittlung.html */
+
+  	#vermittlung_section
+  	{
+  		width: auto;
+  	}
+
+  	#vermittlung_section #vermittlung_kontakt aside
+  	{
+  		display: none;
+  	}
+
+  	#vermittlung_section #vermittlung_kontakt #vermittlung_form
+  	{
+  		display: block;
+  		width: 498px;
+  		margin: auto;
+  	}
+
+  	/* Media queries of kontakt.html */
+
+	#kontakt_oeffnungszeiten
+	{
+		width: auto;
+		margin: auto;
+	}
+
+	#kontakt_part1
+	{
+		width: auto;
+		display: block;
+	}
+
+	#kontakt_oeffnungszeiten #kontakt
+	{
+		width: auto;
+		display: block;
+	}
+
+	#kontakt_oeffnungszeiten #addresse, #kontakt_oeffnungszeiten #zeiten
+	{
+		width: auto;
+		display: block;
+	}
+
+	#kontakt_oeffnungszeiten #addresse table, #kontakt_oeffnungszeiten #zeiten table
+	{
+		width: 300px;
+		margin: auto;
+	}
+
+	#kontakt_oeffnungszeiten #kontakt table
+	{
+		width: 310px;
+		margin: auto;
+	}
+
+	#kontaktieren
+	{
+		width: auto;
+		margin: auto;
+	}
+
+	#kontaktieren p
+	{
+		width: 350px;
+		margin: auto;
+	}
+
+	/* Media queries of angebot.html */
+
+	#angebot_section p
+	{
+		font-size: 1.5em;
+		width: 450px;
+		height: 50px;
+		border: 3px solid blue;
+		border-radius: 35px;
+	}
+
+	/* Media queries of kleinen_umzug.html */
+	
+	/* -60 px retirer sur les largeurs initiales*/
+	#umzug_section
+    {
+        width: 480px;
+        margin: auto;
+    }
+
+    #umzug_detail
+    {
+    	display: block;
+    	width: 400px;
+    	margin: auto;
+    	margin-bottom: 40px;
+    }   
+
+    #umzug_form
+    {
+    	display: block;
+    	width: 452px;
+    	margin: auto;
+    	margin-bottom: 40px;
+    }	
+
+	.progressbar li:last-child
+	{
+		margin-right: 30px;
+	}
+
+	#auszug_form
+	{
+		width: auto;
+	}
+
+	#auszug_form p
+	{
+		font-size: 1.3em;
+		margin: auto;
+	}
+
+	#auszug_adresse, #auszug_plz, #auszug_ort
+	{
+		width: 440px;
+		height: 25px;
+	}
+
+	#auszug_flaeche
+	{
+		width: 290px;
+		height: 25px;
+		margin-bottom: 5px;
+	}
+
+	#auszug_ort
+	{
+		margin-bottom: 5px;
+	}
+
+	#auszug_raeume
+	{
+		width: 284px;
+		height: 25px;
+		margin-bottom: 5px;
+	}
+
+	#aufgabe
+	{
+		margin-left: 90px;
+		margin-bottom: 5px;
+	}
+
+	#auszug_ab_und_auf
+	{
+		margin-left: 208px;
+		width: 25px;
+		height: 25px;
+	}
+
+	#auszug_kartons
+	{
+		margin-left: 193px;
+		width: 25px;
+		height: 25px;
+	}
+
+	#auszug_entsorgung
+	{
+		margin-left: 318px;
+		width: 25px;
+		height: 25px;
+	}
+
+	#auszug_reinigung
+	{
+		margin-left: 270px;
+		width: 25px;
+		height: 25px;
+	}
+
+	#auszug_weiter
+	{
+		margin-left: 365px;
+		width: 80px;
+		height: 25px;
+	}
+
+	/* Media quries of kleinen_umzug_einzug.html */
+
+	#einzug_adresse, #einzug_plz, #einzug_ort
+	{
+		width: 440px;
+		height: 25px;
+	}
+	#einzug_flaeche
+	{
+		width: 190px;
+		height: 25px;
+		margin-bottom: 5px;
+	}
+
+	#einzug_ort
+	{
+		margin-bottom: 5px;
+	}
+
+	#einzug_raeume
+	{
+		width: 284px;
+		height: 25px;
+		margin-bottom: 5px;
+	}
+
+	#eingang
+	{
+		margin-left: 115px;
+		margin-bottom: 5px;
+	}
+
+	#lift
+	{
+		margin-left: 185px;
+		width: 25px;
+		height: 25px;
+	}
+
+	#kein_lift
+	{
+		width: 25px;
+		height: 25px;
+	}
+
+	#einzug_gebaeude
+	{
+		margin-left: 190px;
+		width: 25px;
+		height: 25px;
+	}
+
+	#einzug_haus
+	{
+		margin-left: 172px;
+		width: 25px;
+		height: 25px;
+	}
+
+	#einzug_zurueck
+	{
+		width: 80px;
+		height: 25px;
+	}
+
+	#einzug_weiter
+	{
+		margin-left: 278px;
+		width: 80px;
+		height: 25px;
+	}
+
+	/* Media queries of kleinen_umzug_daten.html */
+
+	#daten_vorname, #daten_nachname, #daten_email, #daten_telefon
+	{
+		width: 440px;
+		height: 25px;
+		margin-bottom: 5px;
+	}
+
+	#daten_kommentar
+	{
+		width: 440px;
+		height: 90px;
+		margin-bottom: 5px;
+	}
+
+	#daten_zurueck
+	{
+		width: 80px;
+		height: 25px;
+	}
+
+	#daten_weiter
+	{
+		margin-left: 278px;
+		width: 80px;
+		height: 25px;
+	}
+}

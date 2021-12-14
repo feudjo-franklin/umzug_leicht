@@ -1,0 +1,686 @@
+/* Define custom fonts */
+/*
+@font-face
+{
+    font-family: 'BallparkWeiner';
+    src: url('fonts/ballpark.eot');
+    src: url('fonts/ballpark.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ballpark.woff') format('woff'),
+         url('fonts/ballpark.ttf') format('truetype'),
+         url('fonts/ballpark.svg#BallparkWeiner') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'Dayrom';
+    src: url('fonts/dayrom.eot');
+    src: url('fonts/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('fonts/dayrom.woff') format('woff'),
+         url('fonts/dayrom.ttf') format('truetype'),
+         url('fonts/dayrom.svg#Dayrom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}*/
+
+@font-face
+{
+    font-family: 'BallparkWeiner';
+    src: url('fonts/ballpark.eot');
+    src: url('fonts/ballpark.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ballpark.woff') format('woff'),
+         url('fonts/ballpark.ttf') format('truetype'),
+         url('fonts/ballpark.svg#BallparkWeiner') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'Dayrom';
+    src: url('fonts/dayrom.eot');
+    src: url('fonts/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('fonts/dayrom.woff') format('woff'),
+         url('fonts/dayrom.ttf') format('truetype'),
+         url('fonts/dayrom.svg#Dayrom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'Magnolia';
+    src: url('fonts/magnolia_sky.otf');
+    src: url('fonts/magnolia_sky.eot?#iefix') format('embedded-opentype'),
+         url('fonts/magnolia_sky.woff') format('woff'),
+         url('fonts/magnolia_sky.ttf') format('truetype'),
+         url('fonts/magnolia_sky.svg#Magnolia') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* Main elements of the page */
+html
+{
+    padding: 0px;
+}
+
+body
+{
+    background-color: #E8EEF1;
+    padding: 0px;
+    margin: 0px;
+    /* border: 2px solid yellow; */
+    /*background: url("images/demenagement_background.jpg") no-repeat;*/
+}
+
+/* Header */
+
+header
+{
+    margin: 0;
+    height: 70px;
+    width: auto;
+    position: fixed;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    background-color: #1E3D58;
+    opacity: 1;
+}
+
+#header
+{
+    width: 950px;
+    margin: auto;
+    /*border: 2px solid maroon;*/
+    line-height: 70px;
+}
+
+#main_title
+{
+    /*display: inline-block;*/
+    width: 250px;
+    /*border: 2px solid fuchsia;*/
+    /*margin-right: 176px;*/
+    padding-top: 0px;
+    height: 70px;
+    /*vertical-align: baseline;*/
+    float: left;
+}
+
+#main_title h1
+{
+    font-weight: normal;
+    font-size: 1.8em;
+    color: white;
+    margin-top: 0px;
+    float: left;
+    line-height: 30px;
+}
+
+/* Navigation */
+
+nav
+{
+    /*display: inline-block;*/
+    /*padding: 0px;*/
+
+    /*text-align: right;*/
+    /*border: 2px solid green;*/
+    /*vertical-align: baseline;*/
+    float: right;
+    height: 70px;
+}
+
+nav ul
+{
+    list-style-type: none;
+    text-align: right;
+    margin-top: 0px;
+    height: 70px;
+    padding-bottom: 0px;
+}
+
+nav li
+{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: white;
+    padding-bottom: 3px;
+    text-decoration: none;
+    margin-bottom: 0px;
+}
+
+nav a:hover
+{
+    border-bottom: 3px solid white;;
+}
+
+.show-menu-btn, .hide-menu-btn
+{
+    transition: 0.4s;
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.show-menu-btn
+{
+    float: right;
+}
+
+.show-menu-btn i
+{
+    line-height: 70px;
+    color: white;
+}
+
+#chk
+{
+    position: absolute;
+    visibility: hidden;
+    z-index: -1111;
+}
+
+/* Banner */
+
+#banner_image
+{
+    display: block;
+    margin-top:70px;
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 400px;
+    width: auto;
+    /*background: url('images/service_background.jpg') no-repeat;*/
+    background-color: #057DCD;
+    /* border: 2px solid red;*/
+    margin-bottom: 0px;
+}
+
+#banner
+{
+    width: 950px;
+    margin: auto;
+    /*border: 2px solid maroon;*/
+    height: 400px;
+}
+
+#banner_description
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+    height: 250px;
+    /*border: 2px solid blue;*/
+    margin-right: 388px;
+    margin-top: 30px;
+}
+
+#header_form
+{
+    display: inline-block;
+    width: 350px;
+    vertical-align: top;
+    /*border: 2px solid black;*/
+    height: 400px;
+    font-size: 1.3em;
+}
+
+#header_form #umzugsort, #header_form #umzugsziel
+{
+    width: 345px;
+    height: 25px;
+} 
+
+#header_form #fest, #header_form #flexibel, #header_form #datenschutz
+{
+    width: 20px;
+    height: 20px;
+}
+
+#header_form #umzugstermin, #header_form #wohnungsgroesse, #header_form #nachname, #header_form #vorname, #header_form #telefon, #header_form #email
+{
+    width: 168px;
+    height: 25px;
+    margin-bottom: 5px;
+}
+
+#header_form #submit
+{
+    width: 350px;
+    height: 25px;
+}
+
+/*
+#header_form p
+{
+    width: 500px;
+    margin: auto;
+    border: 2px solid yellow;
+}
+*/
+
+#banner_description p:first-child
+{
+    width: 180px;
+    /*border: 1px solid red;*/
+    margin: auto;
+    margin-top: 20px;
+    font-size: 1.1em;
+}
+
+#banner_description p:last-child
+{
+    /*border: 3px solid green;*/
+    border-radius: 30px;
+    background-color: red;
+    width: 200px;
+    height: 40px;
+    padding-top: 12px;
+    margin-top: 60px;
+    text-align: center;
+}
+
+#banner_description a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+#banner_description p:last-child:hover, #banner_description a:hover
+{
+    background-color: blue;
+}
+
+#banner_description p:first-child strong
+{
+    font-size: 1.5em;
+}
+
+
+
+/* style of kontakt.html */
+
+#kontakt_banner_image
+{
+    display: block;
+    margin-top: 70px;
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 400px;
+    width: auto;
+    background: url('images/kontakt_background.jpg') no-repeat;
+    background-color: #057DCD;
+    /*border: 2px solid blue;*/
+}
+
+#kontakt_banner_image h1
+{
+    text-align: center;
+    /*border: 1px solid black;*/
+    font-size: 4em;
+    padding-top: 80px;
+    font-family: Magnolia;
+    color: rgba(220,35,72);
+}
+
+/* style of vermittlung.html */
+
+#vermittlung_banner_image
+{
+    display: block;
+    margin-top:70px;
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 400px;
+    width: auto;
+    /*background: url('images/demenagement_background.jpg') no-repeat 0 0;*/
+    background-color: #057DCD;
+    /* border: 2px solid red;*/
+}
+
+#vermittlung_banner_image p
+{
+    text-align: center;
+    padding-top: 100px;
+    /*height: 400px;*/
+    /*border: 1px solid black;*/
+    font-size: 4em;
+    font-family: Magnolia;
+    color: white;
+}
+
+/* style of kleinen_umzug.html */
+#umzug_banner
+{
+    display: block;
+    margin-top: 70px;
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 400px;
+    width: auto;
+    /*background: url('images/demenagement_background.jpg') no-repeat 0 0;*/
+    /*background-color: rgb(103,228,50);*/
+    background-color: #057DCD;
+    /*border: 2px solid blue;*/
+    font-family: Magnolia;
+    font-weight: normal;
+}
+
+#umzug_banner h1
+{
+    text-align: center;
+    /*border: 1px solid black;*/
+    font-size: 4em;
+    padding-top: 150px;
+    color: rgba(220,35,72);
+}
+
+/* Media queries of the website */
+
+@media all and (min-width: 794px) and (max-width: 950px)
+{
+    /*Media queries du header de tout le site */
+    #header
+    {
+        width: auto;
+        margin: auto;
+    }   
+
+    #main_title
+    {
+        float: left;
+    }
+
+    nav
+    {
+        float: right;
+    }
+
+    /* Media queries of service.html */
+
+    #banner
+    {
+        width: 774px;
+        margin: auto;
+    }
+
+    #banner_description
+    {
+        margin-right: 212px;
+    }
+
+    /*Media queries of vermittlung.html */
+
+    #vermittlung_banner_image p
+    {
+        font-size: 3em;
+        padding-top: 100px;
+    }
+
+    /* Media queries of kontakt.html */
+
+    #kontakt_banner_image h1
+    {
+        padding-top: 130px;
+        font-size: 3em;
+    }
+
+    /* Media queries of kleinen_umzug.html */
+
+    #umzug_banner h1
+    {
+        font-size: 4em;
+        padding-top: 60px;
+    }
+}
+
+@media all and (min-width: 630px) and (max-width: 793px)
+{
+    #header
+    {
+        width: auto;
+        margin: auto;
+    }   
+
+    .show-menu-btn, .hide-menu-btn
+    {
+        color: #E8EEF1;
+        display: block;
+    }
+
+    .show-menu-btn
+    {
+        margin-right: 15px;
+    }
+
+    nav ul
+    {
+        position: fixed;
+        width: 275px;
+        /*height: 100vh;*/
+        height: 483px;
+        /*background: #333;*/
+        background-color: white;
+        color: #E8EEF1;;
+        right: -100%;
+        top: 0;
+        text-align: left;
+        padding: 80px 0;
+        line-height: normal;
+        transition: 0.7s;
+    }
+
+
+    nav ul li
+    {
+        display: block;
+        width: 275px;
+    }
+    
+    .hide-menu-btn
+    {
+        color: gray;
+    }
+
+    .hide-menu-btn:hover
+    {
+        color: #43B0F1;
+    }
+
+
+    nav ul a
+    {
+        display: block;
+        color: gray;
+        width: 275px;
+        padding-left: 10px;
+        margin-bottom: 50px;
+    }
+
+    nav ul a:first-child
+    {
+        margin-top: 60px;
+    }
+
+    nav ul a:hover
+    {
+        border-left: 4px solid #43B0F1;
+        color: black;
+        font-weight: bold;
+    }
+
+    .hide-menu-btn
+    {
+        position: absolute;
+        top: 40px;
+        right: 40px;
+    }
+
+    #chk:checked ~ nav ul{
+        right: 0;
+    }
+
+     /* Media queries of service.html */
+
+    #banner
+    {
+        width: auto;
+    }
+
+    #banner_description
+    {
+        display: none;
+    }
+
+    #header_form
+    {
+        display: block;
+        width: 350px;
+        margin: auto;
+    }
+
+    /*Media queries of vermittlung.html */
+
+    #vermittlung_banner_image p
+    {
+        font-size: 3em;
+        padding-top: 90px;
+    }
+
+    /* Media queries of kontakt.html */
+
+    #kontakt_banner_image h1
+    {
+        padding-top: 130px;
+        font-size: 3em;
+    }
+
+    /* Media queries of kleinen_umzug.html */
+
+    #umzug_banner h1
+    {
+        font-size: 3em;
+        padding-top: 100px;
+    }
+    
+}
+
+@media all and (max-width: 629px)
+{
+    #header
+    {
+        width: 452px;
+        margin: auto;
+        position: relative;
+    }   
+
+    .show-menu-btn, .hide-menu-btn
+    {
+        display: block;
+    }
+
+    .show-menu-btn
+    {
+        margin-right: 5px;
+    }
+
+    nav ul
+    {
+        position: fixed;
+        width: 275px;
+        /*height: 100vh;*/
+        height: 483px;
+        /*background: #333;*/
+        background-color: white;
+        color: black;
+        right: -100%;
+        top: 0;
+        text-align: left;
+        padding: 80px 0;
+        line-height: normal;
+        transition: 0.7s;
+    }
+
+
+    nav ul a
+    {
+        /*display: block;*/
+        margin-left: 10px;
+        color: black;
+    }
+
+
+    nav ul a:hover
+    {
+        display: block;
+        color: black;
+        border-left: 3px solid #43B0F1;
+    }
+
+    .hide-menu-btn
+    {
+        position: absolute;
+        top: 40px;
+        right: 40px;
+    }
+
+    #chk:checked ~ nav ul{
+        right: 0;
+    }
+
+     /* Media queries of service.html */
+
+    #banner
+    {
+        width: auto;
+    }
+
+    #banner_description
+    {
+        display: none;
+    }
+
+    #header_form
+    {
+        display: block;
+        width: 350px;
+        margin: auto;
+    }
+
+     /*Media queries of vermittlung.html */
+
+    #vermittlung_banner_image p
+    {
+        font-size: 3em;
+        padding-top: 35px;
+    }
+
+    /*Media querries of kontakt.html */
+
+    #kontakt_banner_image h1
+    {
+        font-size: 3em;
+        padding-top: 90px;
+    }
+
+    /* Media queries of kleinen_umzug.html */
+
+    #umzug_banner h1
+    {
+        font-size: 3em;
+        padding-top: 90px;
+    }
+
+}
